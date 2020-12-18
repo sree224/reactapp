@@ -1,0 +1,52 @@
+.row-grey {
+  border-radius: 0.25rem;
+}
+
+.cards-section {
+  &__header {
+    padding: 0.75rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__heading {
+    font-size: 1.8rem;
+    // font-weight: 500;
+    margin-bottom: 1.5rem;
+    color: #5a5a5a;
+  }
+  &__empty {
+    text-align: center;
+    display: block;
+  }
+}
+
+.cards__container {
+  margin-bottom: 3rem;
+}
+
+.fav-btn {
+  outline: 0 !important;
+  border: none !important;
+  float: right;
+  font-size: 2rem;
+  margin-top: 1rem;
+  background: none !important;
+  .orange {
+    color: #ff9426;
+  }
+
+  .dark-blue {
+    color: #121260;
+  }
+
+  .active {
+    color: #767676;
+  }
+
+  .grey {
+    color: #dcdcdc;
+    &:hover {
+      color: #cccccc;
+    }
+  }
+}
